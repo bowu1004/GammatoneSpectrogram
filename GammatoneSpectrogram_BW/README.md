@@ -16,24 +16,7 @@
 Installation
 ------------
 
-You can install directly from this git repository using:
-
-```text
-  pip install git+https://github.com/bowu1004/GammatoneSpectrogram.git
-```
-
-...or you can clone the git repository however you prefer, and do:
-
-```text
-  pip install .
-```
-
-...or:
-
-```
-python setup.py install
-```
-from the cloned tree.
+For now, you can clone the repository and then use it.
 
 ### Dependencies
 
@@ -49,7 +32,7 @@ Using the Code [demos]
 #### 1. How to run the demos.
 1. You can run one of the following two commands in `main_demo_BW.py` or `plot_UrbanSound8K.py`. The `gtgram.gtgram` method in the following 1st line is much **slower** than the 2nd method of `ftweight.fft_gtgram`. So, in most time, run the 2nd line to generate Gammatonegrams.
 ```python
-  ender_GFCC_from_file(path='dog_and_birds.mp3', duration='full', function=gtgram.gtgram)
+  ender_GFCC_from_file(path='dog_and_birds.mp3', duration=2, function=gtgram.gtgram) #Process 2-second chunk.
   ender_GFCC_from_file(path='dog_and_birds.mp3', duration='full', function=fftweight.fft_gtgram)
 ```
 2. `plot_UrbanSound8K.py` can also save the matplotlib plot and its pruned version. An example photo of running it is pasted as below.
