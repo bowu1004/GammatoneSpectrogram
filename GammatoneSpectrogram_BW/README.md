@@ -4,7 +4,7 @@
 ---
 
 ## Introduction
-- **Gammatone Frequency Cepstral Coefficients (GFCC)** can complement with **Mel Frequency Cepstral Coefficients (MFCC)**, due to the capability of GFCC being able to proficiently characterize transient sounds classes such as gun-shots, dog-barking, footsteps and so on [ref](S. Chachada and C. . J. Kuo. Environmental sound recognition: A survey. In 2013 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, pages 1–9, Oct 2013.). So as to be with <span style="color:#B40431;background-color:#FBEFF2"> Gammatone Spectrogram </span> vs **Mel Spectrogram**.
+- **Gammatone Frequency Cepstral Coefficients (GFCC)** can complement with **Mel Frequency Cepstral Coefficients (MFCC)**, due to the capability of GFCC being able to proficiently characterize transient sounds classes such as gun-shots, dog-barking, footsteps and so on [ref](S. Chachada and C. . J. Kuo. Environmental sound recognition: A survey. In 2013 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, pages 1–9, Oct 2013.). So as to be with <span style="color:#B40431;background-color:#FBEFF2">**Gammatone Spectrogram**</span> vs **Mel Spectrogram**.
 - *Most of the code from [Gammatone Filterbank Toolkit by Jason Heeris, 2013.](https://github.com/detly/gammatone) You may find more supported materials from it.*
 
 ## Summary of Changes
